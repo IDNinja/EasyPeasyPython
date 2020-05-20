@@ -25,3 +25,10 @@ Does Anacondo work on X or Y OS? Sure! Linux, Windows, and Mac OS X.
 What is is OS? Operating System :-)
 
 
+# How to Execute a Command Prompt Command from Python
+
+import os
+os.system('cmd /k "Your Command Prompt Command"')
+
+
+Have a look [here](https://datatofish.com/command-prompt-python/).
