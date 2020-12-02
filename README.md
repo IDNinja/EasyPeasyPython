@@ -32,3 +32,14 @@ os.system('cmd /k "Your Command Prompt Command"')
 
 
 Have a look [here](https://datatofish.com/command-prompt-python/).
+
+
+
+
+# How to fix issue with Jupyter Notebook "ModuleNotFoundError: No module named 'numpy'", or any package. 
+
+This happens sometimes even though package is installed. The solution is simple. Go to jupyter and write (for example):
+%pip install numpy
+
+the trick is in '%' :-)
+
